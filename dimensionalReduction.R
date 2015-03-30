@@ -28,7 +28,7 @@ for (i in 1:40) {
     }
 }
 
-## Review the updated matrix. Can you seen the trend? It's Not so easy to see 
+# Review the updated matrix. Can you seen the trend? It's Not so easy to see 
 ## if you're not a computer.
 dataMatrix
 
