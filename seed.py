@@ -1,9 +1,10 @@
 import pandas as pd
 import matplotlib.pylab as plt
 
-# Make an empty dataframe
-df = DataFrame({"first":range(50),
-                "second":range(50)})
+# Make a test dataframe
+df = pd.DataFrame({"first":range(50),"second":range(50)})
 
-plt.scatter(df["frist"], df["second"])
+# Plot the results
+plt.scatter(df["first"], df["second"])
 plt.show()
+plt.close()
