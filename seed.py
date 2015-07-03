@@ -8,7 +8,7 @@ import pandas as pd
 import matplotlib.pylab as plt
 
 # Make a test dataframe
-df = pd.DataFrame({"first":range(50),"second":range(50)})
+df = pd.DataFrame({"first":range(50), "second":range(50)})
 
 # Plot the results
 print "Plotting results"
