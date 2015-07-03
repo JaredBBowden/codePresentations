@@ -14,5 +14,6 @@ print "Plotting results"
 
 # Plot the results
 plt.scatter(df["first"], df["second"])
+plt.title("First and second")
 plt.show()
 plt.close()
