@@ -16,7 +16,6 @@ from sklearn.datasets import load_digits
 # Script settings
 # This option is not yet functional
 opt_grid_search = False
-
 #===============================================
 # Load the dataset
 iris = datasets.load_iris()
@@ -24,6 +23,8 @@ iris = datasets.load_iris()
 # Assign attributes and targets
 attributes = iris.data
 target = iris.target
+
+This = "is just me testing if git is working"
 
 # Spilt into test and train groups
 X_train, X_test, y_train, y_test = train_test_split(attributes, target,
@@ -35,8 +36,6 @@ max_depth=None, n_jobs = -1, random_state = 42, verbose = 1)
 
 # Train
 clf.fit(X_train, y_train)
-
-
 
 # Predict
 y_pred = clf.predict(X_test)

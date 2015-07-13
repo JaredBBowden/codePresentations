@@ -1,4 +1,3 @@
-#!/anaconda/bin/ipython
 """
 Adding some code to play with the Atom editor.
 Also testing the abilities of pycharm.
@@ -20,3 +19,4 @@ plt.ylabel("Second")
 
 plt.show()
 plt.close()
+
