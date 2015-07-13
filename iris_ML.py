@@ -24,8 +24,6 @@ iris = datasets.load_iris()
 attributes = iris.data
 target = iris.target
 
-This = "is just me testing if git is working"
-
 # Spilt into test and train groups
 X_train, X_test, y_train, y_test = train_test_split(attributes, target,
 train_size=0.8, random_state = 42)
@@ -44,6 +42,8 @@ y_pred = clf.predict(X_test)
 print "\nScore:"
 print classification_report(y_test, y_pred, labels=None, target_names=None)
 
+# Only just starting to work on this. The following is directly from
+# scikit documentation
 if opt_grid_search:
     # Directly from scikit:
     # Use a grid search to find the best parameters
